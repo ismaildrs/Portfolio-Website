@@ -8,10 +8,10 @@
 }
 
 .App{
-    width: 100%;
+    width: 100vw;
     background-color: var(--color-primary);
 }
 
 .margin{
-    margin: 0px var(--margin);
+    margin: 50px var(--margin);
 }
