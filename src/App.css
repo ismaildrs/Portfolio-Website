@@ -13,5 +13,5 @@
 }
 
 .margin{
-    margin: 50px var(--margin);
+    padding: 50px var(--margin);
 }
