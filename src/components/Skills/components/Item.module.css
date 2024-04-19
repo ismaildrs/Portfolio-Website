@@ -1,5 +1,5 @@
 .skills_item{
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 .title{
@@ -8,7 +8,8 @@
 }
 
 .skills{
-    display: flex;
+    display: wrap;
+    flex-wrap: wrap;
 }
 
 .skill_title{
@@ -18,6 +19,5 @@
     border: 1px solid #717171;
     background-color: #2E2E2E;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
+    display: inline-block;
 }
