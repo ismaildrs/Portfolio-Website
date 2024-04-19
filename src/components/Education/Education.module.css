@@ -1,0 +1,26 @@
+
+.education{
+    padding-top: var(--padding-top);
+}
+
+.title_section{
+    font-size: 33px;    
+    margin-bottom: 25px;
+}
+
+.title_section span{
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.desc_section{
+    display: flex;
+    align-items: start;
+}
+
+.design{
+    width: 1px;
+    height: 22vh;
+    background-color: white;
+    margin: 0px 15px;
+}

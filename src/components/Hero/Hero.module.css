@@ -1,0 +1,114 @@
+@keyframes sliding{
+    from{
+        left: var(--animation-start-pos);
+        opacity: 0;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@keyframes floating{
+    0%{
+        bottom: -5vh;
+    }
+    50%{
+        bottom: -3vh;
+    }
+    100%{
+        bottom: -5vh;
+    }
+}
+
+.hero{
+    background-color: transparent;
+    position: relative;
+    padding-top: var(--padding-top);
+    animation-name: sliding;
+    animation-duration: 1s;
+    background-color: transparent;
+}
+
+.hero_infos{
+    position: relative;
+    background-color: transparent;
+}
+
+.profile_img{
+    background-color: transparent;
+    position: absolute;
+    right: -5vw;
+    bottom: -5vh;
+    animation: floating 5s infinite;
+    opacity: 0.75;
+}
+
+.profile_img img{
+    width: 400px;
+    height: 400px;
+    filter: grayscale(100%);
+}
+
+.title_section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title_section .title{
+    font-size: 52px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.title_section .title_state{
+    background-color: #BEDBFE;
+    font-size: 16px;
+    padding: 4px;
+    color: #1F3A8A;
+    border-radius: 18px;
+}
+
+.desc_section{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.btn_section{
+    display: flex;
+}
+
+.btn_section button{
+    font-size: 19px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 3px 5px;
+    border: 1px solid #717171;
+    background-color: #2E2E2E;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.btn_section button a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn_section button .icons{
+    margin-right: 5px;
+}
+
+.btn_section button span{
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .profile_img{
+        display: none;
+    }
+       
+}

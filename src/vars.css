@@ -1,0 +1,10 @@
+:root{
+    --color-text: #fff;
+    --color-primary: #151515;
+    --color-secondary: #FFEA9F;
+    --color-onSecondary: #FFBBC3;
+    --margin: 15vw;
+    --padding-top: 15vh;
+    --animation-start-pos: -100px;
+    height: 100%;
+}

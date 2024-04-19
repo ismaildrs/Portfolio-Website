@@ -1,0 +1,72 @@
+@import '../../vars.css';
+
+.navbar{
+    height:  10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.icon{
+    font-size: 35px;
+}
+
+.btn_icon{
+    display: none;
+    border: none;
+    outline: none;
+    background-color: var(--color-primary);
+}
+
+.menu_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+.menu_items a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.menu_items li{
+    margin-left: 3vw;
+    background-color: transparent;
+}
+
+
+@media screen and (max-width: 950px){
+    .btn_icon{
+        display: block;
+    }
+    .menu_items{
+        display: none;
+        padding: 10px;
+        margin-top: 10px;
+        position: absolute;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+        border: 2px solid white;
+        border-radius: 20px;
+        right: 7vw;
+        background-color: rgba(0, 0, 0, 0.614);
+    }
+    .menu_items li{
+        margin-left: 0;
+        padding: 5px 0;
+    }
+
+    .menu_open{
+        display: flex;
+        z-index: 1;
+    }
+}

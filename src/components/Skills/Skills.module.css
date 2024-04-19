@@ -1,0 +1,18 @@
+@import '../../vars.css';
+
+.skills{
+    padding-bottom: var(--padding-top);
+}
+
+.title_section{
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    margin-top: var(--padding-top);
+    margin-bottom: 25px;
+}
+
+.title_section span{
+    font-weight: 600;
+    margin-left: 5px;
+}
