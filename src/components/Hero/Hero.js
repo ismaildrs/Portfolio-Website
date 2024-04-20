@@ -7,7 +7,7 @@ import logo from "../../assets/ismail.png";
 
 export default function Hero() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="about">
       <div className={styles.profile_img}>
         <img  src={logo} alt="ismail"></img>
       </div>

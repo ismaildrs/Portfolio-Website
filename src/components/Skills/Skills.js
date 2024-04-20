@@ -5,7 +5,7 @@ import Item from "./components/Item";
 
 export default function Skills() {
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} id='skills'>
       <div className={styles.title_section}><FaHashtag /><span>Skills</span></div>
       <div className={styles.desc_section}>
         <Item title= "Web Development:" skills={["HTML", "CSS", "Javascript", "PHP", "Laravel", "ReactJS", "Django"]} />

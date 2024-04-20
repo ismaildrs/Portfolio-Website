@@ -33,7 +33,7 @@
 
 .menu_items a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     background-color: transparent;
 }
 
@@ -43,7 +43,7 @@
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1000px){
     .btn_icon{
         display: block;
     }

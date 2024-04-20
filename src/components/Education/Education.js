@@ -5,7 +5,7 @@ import Item from './components/Item';
 
 export default function Education() {
   return (
-    <div className={styles.education}>
+    <div className={styles.education} id='education'>
       <div className={styles.title_section}><FaGraduationCap /><span>Education</span></div>
       <div className={styles.desc_section}>
         <div className={styles.design}>

@@ -5,7 +5,7 @@ import Item from './components/Item';
 
 export default function Languages() {
   return (
-    <div className='languages'>
+    <div className='languages' id='languages'>
       <div className={styles.title_section}><IoLanguageSharp /><span>Languages</span></div>
       <div className={styles.desc_section}>
         <Item lang="English" desc="Full Proficiency" ratio={0.7} />
