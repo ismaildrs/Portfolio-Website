@@ -4,7 +4,6 @@ import ProjectItem from './components/ProjectItem';
 import { MdConstruction } from "react-icons/md";
 import project1 from "../../assets/project_1.png";
 import project2 from "../../assets/project_1_1.png";
-import project3 from "../../assets/project_1_2.png";
 
 export default function Projects() {
   return (
