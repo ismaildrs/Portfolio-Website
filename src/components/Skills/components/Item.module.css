@@ -20,5 +20,9 @@
     border: 1px solid #717171;
     background-color: #2E2E2E;
     border-radius: 15px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+}
+.skill_title span{
+    margin-left: 5px;
 }
